@@ -30,6 +30,6 @@
 <h1>Resource Preview</h1>
 <img src="https://media.discordapp.net/attachments/1197278089756020886/1201590741017841674/image.png">
 <div style="display:flex;">
-<img src="https://media.discordapp.net/attachments/1180729025665171530/1203074231298957362/image.png">
-<img src="https://media.discordapp.net/attachments/1180729025665171530/1203074156615307334/image.png">
+<img src="https://media.discordapp.net/attachments/1180632680140910682/1203071993843548240/image.png">
+<img src="https://media.discordapp.net/attachments/1180632680140910682/1203071994439016528/image.png">
 </div>

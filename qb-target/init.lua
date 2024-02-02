@@ -33,10 +33,10 @@ Config.EnableOutline = false
 Config.Toggle = false
 
 -- Draw a Sprite on the center of a PolyZone to hint where it's located
-Config.DrawSprite = false
+Config.DrawSprite = true
 
 -- The default distance to draw the Sprite
-Config.DrawDistance = 10.0
+Config.DrawDistance = 3.0
 
 -- The color of the sprite in rgb, the first value is red, the second value is green, the third value is blue and the last value is alpha (opacity). Here is a link to a color picker to get these values: https://htmlcolorcodes.com/color-picker/
 Config.DrawColor = {255, 255, 255, 255}

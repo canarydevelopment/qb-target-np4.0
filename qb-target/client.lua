@@ -65,8 +65,8 @@ end
 
 local function DrawTarget()
     CreateThread(function()
-           while not HasStreamedTextureDictLoaded("targets") do Wait(10) 
-   		   RequestStreamedTextureDict("targets", true) end
+           while not HasStreamedTextureDictLoaded("targetx") do Wait(10) 
+   		   RequestStreamedTextureDict("targetx", true) end
            local sleep
            local r, g, b, a
            while targetActive do
@@ -75,9 +75,9 @@ local function DrawTarget()
                    sleep = 0
                    SetDrawOrigin(zone.center.x, zone.center.y, zone.center.z, 0)
                    if zone.success then
-                       DrawSprite("targets", "target_success", 0, 0, 0.02, 0.035, 0, 255, 255, 255, 255)
+                       DrawSprite("targetx", "target_success", 0, 0, 0.02, 0.035, 0, 255, 255, 255, 255)
                    else 
-                       DrawSprite("targets", "target_search", 0, 0, 0.02, 0.035, 0, 255, 255, 255, 255)
+                       DrawSprite("targetx", "target_search", 0, 0, 0.02, 0.035, 0, 255, 255, 255, 255)
                    end
    
                    ClearDrawOrigin()
